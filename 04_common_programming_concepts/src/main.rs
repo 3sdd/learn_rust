@@ -17,4 +17,12 @@ fn main() {
         println!("The value of x in the inner scope is: {x}");
     }
     println!("The value of x is: {x}");
+
+    // string type
+    let spaces = "   ";
+    // number type
+    let spaces = spaces.len();
+
+    let mut spaces = "  ";
+    spaces = spaces.len();
 }
